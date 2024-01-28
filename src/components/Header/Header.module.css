@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 6rem;
+  margin: 0 18.5rem;
+  background-color: var(--color-bg-main);
+}
+
+.nav {
+}
+
+.nav__list {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.call {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.call__info {
+  display: flex;
+  flex-direction: column;
+}
