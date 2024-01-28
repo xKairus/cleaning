@@ -7,9 +7,6 @@
   background-color: var(--color-bg-main);
 }
 
-.nav {
-}
-
 .nav__list {
   display: flex;
   gap: 2rem;

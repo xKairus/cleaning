@@ -1,0 +1,30 @@
+.welcome {
+  position: relative;
+  padding: 0 18.5rem;
+  display: flex;
+  background-color: var(--color-bg-secondary);
+  min-height: 56.5rem;
+}
+
+.welcome__info {
+  margin-top: 8.5rem;
+}
+
+.welcome__about {
+  width: 40rem;
+}
+
+.welcome__title {
+  font-size: 72px;
+  font-weight: 700;
+}
+
+.welcome__imgs {
+  position: absolute;
+  bottom: -0.3rem;
+  right: 12rem;
+}
+
+.cleaner {
+  height: 52.5rem;
+}
