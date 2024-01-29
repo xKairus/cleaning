@@ -1,6 +1,11 @@
 .article {
   margin-bottom: 3rem;
 }
+
+.article_center {
+  text-align: center;
+}
+
 .tag {
   color: var(--color-typo-main);
   font-family: "Rubik", "Arial", sans-serif;

@@ -14,8 +14,8 @@ export default function Welcome() {
         </div>
         <div className={styles.welcome__stats}>
           <ul className={styles.welcome__list}>
-            {stats.map((stat) => (
-              <li className={styles.welcome__stat}>
+            {stats.map((stat, index) => (
+              <li key={index} className={styles.welcome__stat}>
                 <span>{stat.number}</span>
                 <br /> {stat.text}
               </li>

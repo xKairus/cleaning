@@ -44,13 +44,19 @@ export const serviceCards = [
   {
     title: "Hospital Cleaning",
     text: "Ensuring hygienic healthcare spaces with strict protocols and approved disinfectants.",
+    color:'rgb(218, 64, 64)',
+    bgcolor:'rgba(218, 64, 64, 0.6)',
   },
   {
     title: "Office Cleaning",
     text: "Elevating workplaces with meticulous services for clean, organized, and welcoming offices.",
+    color:'rgb(35, 49, 245)',
+    bgcolor:'rgba(35, 49, 245, 0.6)',
   },
   {
     title: "Home Cleaning",
     text: "Transforming homes into sanctuaries with comprehensive and personalized cleaning solutions.",
+    color:'rgb(101, 179, 50)',
+    bgcolor:'rgba(101, 179, 50, 0.6)',
   },
 ];

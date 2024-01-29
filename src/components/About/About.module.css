@@ -2,6 +2,7 @@
     box-sizing: border-box;
     min-height: 50rem;
     padding: 7.5rem 19rem;
+    background-color: var(--color-bg-main);
 }
 
 .about__info {

@@ -5,11 +5,18 @@ interface ArticleProps {
   tag: string;
   title: string;
   text: string[];
+  additionalClass?: string;
 }
 
-const Article: React.FC<ArticleProps> = ({ tag, title, text }) => {
+const Article: React.FC<ArticleProps> = ({
+  tag,
+  title,
+  text,
+  additionalClass = "",
+}) => {
+  console.log("additionalClass:", additionalClass);
   return (
-    <article className={styles.article}>
+    <article className={`${styles.article} ${styles[additionalClass]}`}>
       <span className={styles.tag}>{tag}</span>
       <h2 className={styles.title}>{title}</h2>
       {text.map((item: string, index: number) => (
