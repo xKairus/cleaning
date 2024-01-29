@@ -1,13 +1,12 @@
 .welcome {
   display: flex;
   position: relative;
-  min-height: 56.5rem;
-  padding: 0 18.5rem;
+  padding: 6.5rem 18.5rem;
   background-color: var(--color-bg-secondary);
 }
 
 .welcome__info {
-  margin-top: 8.5rem;
+  /* margin-top: 6rem; */
 }
 
 .welcome__about {

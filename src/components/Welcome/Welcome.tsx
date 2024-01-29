@@ -11,8 +11,7 @@ export default function Welcome() {
             Cleaning Service From World Class Agency.
           </h1>
           <p className={styles.welcome__text}>
-            Our services go beyond the basic services and provide you with clean
-            your home and enhance your life.
+          Elevate your living space with our professional cleaning services. Our dedicated team ensures a spotlessly clean and healthy home.
           </p>
           <Button>Learn More</Button>
         </div>

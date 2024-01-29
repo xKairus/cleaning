@@ -1,0 +1,28 @@
+.article {
+  margin-bottom: 3rem;
+}
+.tag {
+  color: var(--color-typo-main);
+  font-family: "Rubik", "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration-line: underline;
+  text-decoration-color: var(--color-accent);
+  text-decoration-style: solid;
+  text-decoration-thickness: 3px;
+  text-underline-offset: .4em;
+}
+
+.title {
+  color: var(--color-typo-main);
+  font-family: "Rubik", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  margin: 1.5rem 0;
+}
+
+.text {
+  color: var(--color-typo-secondary);
+  font-family: "Rubik", "Arial", sans-serif;
+  margin: 1.5rem 0;
+}

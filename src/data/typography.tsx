@@ -2,7 +2,7 @@ export const about = {
   tag: "About Us",
   title: "Why will you choose our Services?",
   text: [
-    "Our services go beyond the basic services and provide you with a clean environment that will reenergize your home and enhance your life.",
-    "Our services go beyond the basic services and provide you with reenergize your home and enhance your life.",
+    "Experience excellence with our skilled team and eco-friendly approach. Immaculate cleanliness meets a personalized touch, raising your standards for a transformative cleaning experience.",
+    "Our commitment goes beyond mere cleaning – it's about creating a refreshed and inviting environment that suits your lifestyle.",
   ],
 };
