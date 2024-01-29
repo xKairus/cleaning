@@ -1,22 +1,18 @@
+import React from "react";
+import Article from "../Article/Article";
+import Button from "../Button/Button";
 import styles from "./About.module.css";
+import { about } from "../../data/typography";
 
-export default function About() {
+const About: React.FC = () => {
   return (
     <section className={styles.about}>
       <div className={styles.about__info}>
-        <span>About Us</span>
-        <h2>Why will you choose our Services?</h2>
-        <p>
-          Our services go beyond the basic services and provide you with a clean
-          the that will Cleaning services of the reenergize your home and
-          enhance your life.
-        </p>
-        <p>
-          Our services go beyond the basic services and provide you with
-          reenergize your home and enhance your life.
-        </p>
-        <button>Read More</button>
+        <Article {...about} />
+        <Button>Read More</Button>
       </div>
     </section>
   );
-}
+};
+
+export default About;
