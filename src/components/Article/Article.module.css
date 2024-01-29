@@ -10,7 +10,7 @@
   text-decoration-color: var(--color-accent);
   text-decoration-style: solid;
   text-decoration-thickness: 3px;
-  text-underline-offset: .4em;
+  text-underline-offset: 0.4em;
 }
 
 .title {
@@ -25,4 +25,6 @@
   color: var(--color-typo-secondary);
   font-family: "Rubik", "Arial", sans-serif;
   margin: 1.5rem 0;
+  font-size: 18px;
+  font-weight: 400;
 }

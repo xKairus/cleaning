@@ -1,3 +1,9 @@
+export const welcome = {
+  title: "Cleaning Service From World Class Agency",
+  text: "Elevate your living space with our professional cleaning services. Our dedicated team ensures a spotlessly clean and healthy home.",
+  btn: "Learn More",
+};
+
 export const about = {
   tag: "About Us",
   title: "Why will you choose our Services?",
@@ -6,3 +12,45 @@ export const about = {
     "Our commitment goes beyond mere cleaning – it's about creating a refreshed and inviting environment that suits your lifestyle.",
   ],
 };
+
+export const stats = [
+  {
+    number: "345",
+    text: "Projects Done",
+  },
+  {
+    number: "1450+",
+    text: "Satisfied Clients",
+  },
+  {
+    number: "100+",
+    text: "Award Winner",
+  },
+  {
+    number: "40+",
+    text: "Team Members",
+  },
+];
+
+export const services = {
+  tag: "Services",
+  title: "Our Best Services",
+  text: [
+    "Discover exceptional cleaning services tailored to your spaces. From hospitals to offices and homes, we redefine cleanliness for healthier, inviting environments.",
+  ],
+};
+
+export const serviceCards = [
+  {
+    title: "Hospital Cleaning",
+    text: "Ensuring hygienic healthcare spaces with strict protocols and approved disinfectants.",
+  },
+  {
+    title: "Office Cleaning",
+    text: "Elevating workplaces with meticulous services for clean, organized, and welcoming offices.",
+  },
+  {
+    title: "Home Cleaning",
+    text: "Transforming homes into sanctuaries with comprehensive and personalized cleaning solutions.",
+  },
+];
