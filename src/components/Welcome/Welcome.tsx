@@ -6,12 +6,14 @@ export default function Welcome() {
     <section className={styles.welcome}>
       <div className={styles.welcome__info}>
         <div className={styles.welcome__about}>
-          <h1 className={styles.welcome__title}>Cleaning Service From World Class Agency.</h1>
-          <p>
+          <h1 className={styles.welcome__title}>
+            Cleaning Service From World Class Agency.
+          </h1>
+          <p className={styles.welcome__text}>
             Our services go beyond the basic services and provide you with clean
             your home and enhance your life.
           </p>
-          <button>Learn More</button>
+          <button className={styles.btn}>Learn More</button>
         </div>
         <div className={styles.welcome__stats}>
           <ul>

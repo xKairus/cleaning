@@ -1,44 +1,53 @@
 @font-face {
-  font-family: Roboto;
+  font-family: Rubik;
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(../fonts/Roboto-Regular.woff2) format("woff2"),
-    url(../fonts/Roboto-Regular.woff) format("woff");
+  src: url(../fonts/Rubik-Regular.woff2) format("woff2"),
+    url(../fonts/Rubik-Regular.woff) format("woff");
 }
 
 @font-face {
-  font-family: Volkhov;
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(../fonts/Volkhov-Bold.woff2) format("woff2"),
-    url(../fonts/Volkhov-Bold.woff) format("woff");
-}
-
-@font-face {
-  font-family: Poppins;
+  font-family: Rubik;
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(../fonts/Poppins-Medium.woff2) format("woff2"),
-    url(../fonts/Poppins-Medium.woff) format("woff");
+  src: url(../fonts/Rubik-Medium.woff2) format("woff2"),
+    url(../fonts/Rubik-Medium.woff) format("woff");
 }
 
 @font-face {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url(../fonts/Poppins-SemiBold.woff2) format("woff2"),
-    url(../fonts/Poppins-SemiBold.woff) format("woff");
-}
-
-@font-face {
-  font-family: Poppins;
+  font-family: Rubik;
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(../fonts/Poppins-Bold.woff2) format("woff2"),
-    url(../fonts/Poppins-Bold.woff) format("woff");
+  src: url(../fonts/Rubik-Bold.woff2) format("woff2"),
+    url(../fonts/Rubik-Bold.woff) format("woff");
+}
+
+@font-face {
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/Graphik-Regular.woff2) format("woff2"),
+    url(../fonts/Graphik-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/Graphik-Medium.woff2) format("woff2"),
+    url(../fonts/Graphik-Medium.woff) format("woff");
+}
+
+@font-face {
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/Graphik-SemiBold.woff2) format("woff2"),
+    url(../fonts/Graphik-SemiBold.woff) format("woff");
 }

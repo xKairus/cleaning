@@ -1,11 +1,14 @@
 :root {
   --color-bg-main: #fff;
-  --color-bg-secondary: #DBEBF8;
+  --color-bg-secondary: #dbebf8;
 
-  --color-typo-main: #14183e;
-  --color-typo-secondary: #5e6282;
+  --color-typo-main: #050931;
+  --color-typo-secondary: #767877;
 
   --color-link: #ffffff;
+
+  --color-btn: #1f6bff;
+  --color-btn-text: #ffffff;
 
   --color-accent-first: #df6951;
   --color-accent-second: #f0bb1f;
