@@ -16,20 +16,20 @@ export default function Welcome() {
           <button className={styles.btn}>Learn More</button>
         </div>
         <div className={styles.welcome__stats}>
-          <ul>
-            <li>
+          <ul className={styles.welcome__list}>
+            <li className={styles.welcome__stat}>
               <span>345</span>
               <br /> Projects Done
             </li>
-            <li>
+            <li className={styles.welcome__stat}>
               <span>1450+</span>
               <br /> Satisfied Clients
             </li>
-            <li>
+            <li className={styles.welcome__stat}>
               <span>100+</span>
               <br /> Award Winner
             </li>
-            <li>
+            <li className={styles.welcome__stat}>
               <span>40+</span>
               <br /> Team Members
             </li>
