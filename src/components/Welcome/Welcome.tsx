@@ -1,3 +1,4 @@
+import Button from "../Button/Button";
 import cleaner from "./../../assets/cleaner.png";
 import styles from "./Welcome.module.css";
 
@@ -13,7 +14,7 @@ export default function Welcome() {
             Our services go beyond the basic services and provide you with clean
             your home and enhance your life.
           </p>
-          <button className={styles.btn}>Learn More</button>
+          <Button>Learn More</Button>
         </div>
         <div className={styles.welcome__stats}>
           <ul className={styles.welcome__list}>
