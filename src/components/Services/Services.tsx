@@ -3,8 +3,6 @@ import styles from "./Services.module.css";
 import Button from "../Button/Button";
 import Card from "../Card/Card";
 import { services, serviceCards } from "../../data/typography";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowRightLong, faSoap } from "@fortawesome/free-solid-svg-icons";
 
 export default function Services() {
   return (

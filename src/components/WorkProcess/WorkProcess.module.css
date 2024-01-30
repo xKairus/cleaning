@@ -1,0 +1,13 @@
+.workProcess {
+    background-color: var(--color-bg-secondary);
+    padding: 7.5rem 19rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3.5rem;
+  }

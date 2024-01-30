@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightLong, faSoap } from "@fortawesome/free-solid-svg-icons";
 
 interface cardProps {
-  showArrow: boolean;
+  showArrow?: boolean;
   index: number;
   card: {
     color: string;

@@ -2,6 +2,7 @@ import Welcome from "./components/Welcome/Welcome";
 import Header from "./components/Header/Header";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
+import WorkProcess from "./components/WorkProcess/WorkProcess";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Welcome />
       <About />
       <Services />
+      <WorkProcess />
     </>
   );
 }
