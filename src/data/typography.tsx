@@ -92,3 +92,26 @@ export const workProcessCards = [
     bgcolor: "rgba(218, 64, 64, 0.6)",
   },
 ];
+
+export const whyUs = {
+  tag: "Why Choose Us",
+  title: "Your Happyness is Our First Priority",
+  text: [
+    "We are dedicated to ensuring your happiness through consistent, personalized, and exceptional cleaning. Experience a new level of satisfaction with every visit.",
+  ],
+};
+
+export const whyUsCards = [
+  {
+    title: "Scheduled Sparkle",
+    text: "Consistent, timely cleaning that fits seamlessly into your routine. Never worry about a messy space again.",
+  },
+  {
+    title: "Personalized Perfection",
+    text: "Tailored cleaning plans crafted to your needs. Experience a customized clean like never before.",
+  },
+  {
+    title: "Effortless Cleanliness",
+    text: "Relax as we take care of the mess. Effortless booking, impeccable results—your home, our priority.",
+  },
+];

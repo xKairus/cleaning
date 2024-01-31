@@ -3,6 +3,7 @@ import Header from "./components/Header/Header";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import WorkProcess from "./components/WorkProcess/WorkProcess";
+import WhyUs from "./components/WhyUs/WhyUs";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <About />
       <Services />
       <WorkProcess />
+      <WhyUs />
     </>
   );
 }

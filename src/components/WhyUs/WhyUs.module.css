@@ -1,0 +1,11 @@
+.whyUs {
+  background-color: var(--color-bg-secondary);
+  padding: 7.5rem 19rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.whyUsInfo {
+  max-width: 39rem;
+}
